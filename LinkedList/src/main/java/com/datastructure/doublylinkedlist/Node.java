@@ -1,11 +1,18 @@
-package com.datastructure.singlylinkedlist;
+package com.datastructure.doublylinkedlist;
 
 public class Node {
     int dataItem;
-    Node pointer;
+    Node nextPointer;
+    Node previousPointer;
 
     public Node(int dataItem) {
         this.dataItem = dataItem;
+    }
+
+    public Node(int dataItem, Node nextPointer, Node previousPointer) {
+        this.dataItem = dataItem;
+        this.nextPointer = nextPointer;
+        this.previousPointer = previousPointer;
     }
 
     public int getDataItem() {
@@ -14,13 +21,5 @@ public class Node {
 
     public void setDataItem(int dataItem) {
         this.dataItem = dataItem;
-    }
-
-    public Node getPointer() {
-        return pointer;
-    }
-
-    public void setPointer(Node pointer) {
-        this.pointer = pointer;
     }
 }

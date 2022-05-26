@@ -4,14 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adb4d5f1-c864-43e0-9553-f21ae5c1f61d" name="Changes" comment="" />
+    <list default="true" id="adb4d5f1-c864-43e0-9553-f21ae5c1f61d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/circularlinkedlist/CircularLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/circularlinkedlist/CircularLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/doublylinkedlist/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/doublylinkedlist/DoublyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/linkedlist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/linkedlist/SinglyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="29fKpVIC9KH3uxRIsauYTMFOfFO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,9 +47,114 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.datastructure.circularlinkedlist" />
+      <recent name="com.datastructure.doublylinkedlist" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean" />
+      <command value="mvn deploy" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.com.datastructure in LinkedList">
+    <configuration name="CircularLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructure.circularlinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.datastructure.circularlinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.circularlinkedlist.CircularLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructure.doublylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.datastructure.doublylinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.doublylinkedlist.DoublyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructure.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.datastructure.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.linkedlist.SinglyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest.testDeleteNodeAtEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructure.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.datastructure.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.linkedlist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="testDeleteNodeAtEnd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.datastructure in LinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.datastructure" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.datastructure in LinkedList" />
+        <item itemvalue="JUnit.CircularLinkedListTest" />
+        <item itemvalue="JUnit.DoublyLinkedListTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testDeleteNodeAtEnd" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,5 +176,45 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/SinglyLinkedList.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/DoublyLinkedList.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/DoublyLinkedList.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/CircularLinkedList.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/CircularLinkedList.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/CircularLinkedList.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
