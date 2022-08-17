@@ -86,4 +86,12 @@ public class SinglyLinkedListTest {
     public void testPrintLinkedListAgain(){
         singlyLinkedList.printLinkedList();
     }
+
+    @Test
+    @Order(10)
+    public void testnknode(){
+
+         singlyLinkedList.printLinkedList();
+    }
 }
+

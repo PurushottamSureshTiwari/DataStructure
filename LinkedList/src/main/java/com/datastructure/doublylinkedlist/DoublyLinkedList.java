@@ -3,28 +3,28 @@ package com.datastructure.doublylinkedlist;
 public class DoublyLinkedList {
     
     Node head,tail;
-    Node nextPointer;
+    Node pointerPointer;
     Node previousPointer;
     int length;
 
     public DoublyLinkedList() {
         this.head = null;
         this.previousPointer=null;
-        this.nextPointer=null;
+        this.pointerPointer=null;
         this.length = 0;
     }
 
     public void insertNodeAtBeginning(int data) {
         Node node = new Node(data,null,null);
-        if (head == null && nextPointer==null && previousPointer==null) {
+        if (head == null && pointerPointer==null && previousPointer==null) {
             head = node;
             tail = node;
-            node.nextPointer=null;
+            node.pointerPointer=null;
             node.previousPointer=null;
 
         }else{
             node.previousPointer=null;
-            node.nextPointer=head;
+            node.pointerPointer=head;
             tail = head;
             head = node;
         }
@@ -35,14 +35,14 @@ public class DoublyLinkedList {
             insertNodeAtBeginning(data);
         } else {
             Node tempPointer = head;
-            while (tempPointer.nextPointer != null) {
-                tempPointer = tempPointer.nextPointer;
+            while (tempPointer.pointerPointer != null) {
+                tempPointer = tempPointer.pointerPointer;
             }
             Node node = new Node(data,null,null);
-            node.nextPointer = null;
+            node.pointerPointer = null;
             node.previousPointer = tempPointer;
             tail=node;
-            tempPointer.nextPointer = node;
+            tempPointer.pointerPointer = node;
         }
     }
 
@@ -53,15 +53,15 @@ public class DoublyLinkedList {
         if(position == 0){
             insertNodeAtBeginning(data);
         }else{
-            while (tempPointer.nextPointer!= null && length < position) {
+            while (tempPointer.pointerPointer!= null && length < position) {
                 endPointer = tempPointer;
-                tempPointer = tempPointer.nextPointer;
+                tempPointer = tempPointer.pointerPointer;
                 length++;
             }
             Node node = new Node(data,null,null);
-            node.nextPointer = tempPointer;
+            node.pointerPointer = tempPointer;
             node.previousPointer=endPointer;
-            endPointer.nextPointer = node;
+            endPointer.pointerPointer = node;
             tempPointer.previousPointer=node;
         }
     }
@@ -70,7 +70,7 @@ public class DoublyLinkedList {
         Node tempPointer = head;
         while (tempPointer != null) {
             System.out.println(tempPointer.dataItem);
-            tempPointer = tempPointer.nextPointer;
+            tempPointer = tempPointer.pointerPointer;
         }
     }
 
@@ -85,8 +85,8 @@ public class DoublyLinkedList {
     public int findNode(int position) {
         Node tempPointer = head;
         int length = 0;
-        while (tempPointer.nextPointer != null && length != position) {
-            tempPointer = tempPointer.nextPointer;
+        while (tempPointer.pointerPointer != null && length != position) {
+            tempPointer = tempPointer.pointerPointer;
             length++;
         }
         return tempPointer.dataItem;
@@ -96,7 +96,7 @@ public class DoublyLinkedList {
         int length = 0;
         Node start = head;
         while(start != null){
-            start = start.nextPointer;
+            start = start.pointerPointer;
             length++;
         }
         return  length;
@@ -104,34 +104,34 @@ public class DoublyLinkedList {
 
     public Node deleteNodeAtBeginning() {
         Node node = head;
-        head = head.nextPointer;
+        head = head.pointerPointer;
         head.previousPointer=null;
         return node;
     }
 
     public Node deleteNodeAtEnd() {
-        Node startPointer = head.nextPointer;
+        Node startPointer = head.pointerPointer;
         Node endPointer = head;
-        while (startPointer.nextPointer != null) {
-            startPointer = startPointer.nextPointer;
-            endPointer = endPointer.nextPointer;
+        while (startPointer.pointerPointer != null) {
+            startPointer = startPointer.pointerPointer;
+            endPointer = endPointer.pointerPointer;
         }
-        endPointer.nextPointer = null;
+        endPointer.pointerPointer = null;
         tail=endPointer;
         return startPointer;
     }
 
     public Node deleteNodeAtGivenPosition(int position) {
         int length = 0;
-        Node startPointer = head.nextPointer;
+        Node startPointer = head.pointerPointer;
         Node endPointer = head;
-        while (endPointer.nextPointer != null && length< (position -1)) {
-            startPointer = startPointer.nextPointer;
-            endPointer = endPointer.nextPointer;
+        while (endPointer.pointerPointer != null && length< (position -1)) {
+            startPointer = startPointer.pointerPointer;
+            endPointer = endPointer.pointerPointer;
             length++;
         }
-        Node temp = startPointer.nextPointer;
-        endPointer.nextPointer  =  startPointer.nextPointer;
+        Node temp = startPointer.pointerPointer;
+        endPointer.pointerPointer  =  startPointer.pointerPointer;
         temp.previousPointer=startPointer.previousPointer;
         return startPointer;
     }

@@ -4,17 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adb4d5f1-c864-43e0-9553-f21ae5c1f61d" name="Changes" comment="">
+    <list default="true" id="adb4d5f1-c864-43e0-9553-f21ae5c1f61d" name="Changes" comment="LinkedList Programs">
+      <change afterPath="$PROJECT_DIR$/Graph/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/BreadthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/DepthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/GraphWithAdjacencyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/GraphWithAdjacencyMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/MinimumSpanningTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/TestBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/TestDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/TestGraphAdjacencyMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/TestGraphWithAdjacencyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/TestMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/main/java/com/graph/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/linkedlist/TestLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/src/main/java/com/datastructure/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/src/main/java/com/datastructure/sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/src/main/java/com/datastructure/sorting/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/src/main/java/com/datastructure/sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/src/main/java/com/datastructure/sorting/insertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/main/java/com/datastructure/binarytree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/main/java/com/datastructure/binarytree/BinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/src/main/java/com/datastructure/binarytree/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/CircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/circularlinkedlist/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/DoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/circularlinkedlist/CircularLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/circularlinkedlist/CircularLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/doublylinkedlist/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/doublylinkedlist/DoublyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/linkedlist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/linkedlist/SinglyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -33,8 +51,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Method.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Vector.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Trees/src/main/java/com/datastructure/binarytree/BinaryTree.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Trees/src/main/java/com/datastructure/binarytree/BinaryTreeTest.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="printErrorStackTraces" value="true" />
+        <option name="useMavenConfig" value="true" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="29fKpVIC9KH3uxRIsauYTMFOfFO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,108 +84,106 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "/Users/purushottamtiwari/IdeaProjects/DataStructure",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.graph" />
       <recent name="com.datastructure.circularlinkedlist" />
       <recent name="com.datastructure.doublylinkedlist" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn install" />
       <command value="mvn clean" />
       <command value="mvn deploy" />
+      <command value="mvn install" />
+      <command value="mvn clean install  --skip Tests" />
+      <command value="mvn install -DskipTests" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.datastructure in LinkedList">
-    <configuration name="CircularLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinkedList" />
+  <component name="RunManager" selected="Application.com.datastructure.binarytree.BinaryTreeTest">
+    <configuration name="TestBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.graph.TestBFS" />
+      <module name="Graph" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.circularlinkedlist.*" />
+          <option name="PATTERN" value="com.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.datastructure.circularlinkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.circularlinkedlist.CircularLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinkedList" />
+    <configuration name="TestDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.graph.TestDFS" />
+      <module name="Graph" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.doublylinkedlist.*" />
+          <option name="PATTERN" value="com.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.datastructure.doublylinkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.doublylinkedlist.DoublyLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinkedList" />
+    <configuration name="TestMST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.graph.TestMST" />
+      <module name="Graph" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.linkedlist.*" />
+          <option name="PATTERN" value="com.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.datastructure.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.linkedlist.SinglyLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.testDeleteNodeAtEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinkedList" />
+    <configuration name="com.datastructure.binarytree.BinaryTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.binarytree.BinaryTreeTest" />
+      <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.linkedlist.*" />
+          <option name="PATTERN" value="com.datastructure.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.datastructure.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.linkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testDeleteNodeAtEnd" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.datastructure in LinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinkedList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.datastructure" />
+    <configuration name="All in Trees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trees" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.com.datastructure.binarytree.BinaryTreeTest" />
+      <item itemvalue="Application.TestBFS" />
+      <item itemvalue="Application.TestDFS" />
+      <item itemvalue="Application.TestMST" />
+      <item itemvalue="JUnit.All in Trees" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.datastructure in LinkedList" />
-        <item itemvalue="JUnit.CircularLinkedListTest" />
-        <item itemvalue="JUnit.DoublyLinkedListTest" />
-        <item itemvalue="JUnit.SinglyLinkedListTest" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testDeleteNodeAtEnd" />
+        <item itemvalue="Application.com.datastructure.binarytree.BinaryTreeTest" />
+        <item itemvalue="JUnit.All in Trees" />
+        <item itemvalue="Application.TestMST" />
+        <item itemvalue="Application.TestBFS" />
+        <item itemvalue="Application.TestDFS" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +196,14 @@
       <option name="presentableId" value="Default" />
       <updated>1653498884541</updated>
     </task>
+    <task id="LOCAL-00001" summary="LinkedList Programs">
+      <created>1653562624422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653562624422</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,14 +217,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LinkedList Programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList Programs" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/SinglyLinkedList.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/doublylinkedlist/DoublyLinkedList.java</url>
           <line>77</line>
@@ -210,11 +249,86 @@
           <line>69</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/SinglyLinkedList.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/SinglyLinkedList.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Trees/src/main/java/com/datastructure/binarytree/BinaryTree.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Trees/src/main/java/com/datastructure/binarytree/BinaryTree.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sorting/src/main/java/com/datastructure/sorting/SelectionSort.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sorting/src/main/java/com/datastructure/sorting/MergeSort.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sorting/src/main/java/com/datastructure/sorting/MergeSort.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sorting/src/main/java/com/datastructure/sorting/insertionSort.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/test/java/com/datastructure/linkedlist/TestLinkedList.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/main/java/com/datastructure/singlylinkedlist/SinglyLinkedList.java</url>
+          <line>286</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Graph/src/main/java/com/graph/GraphWithAdjacencyMatrix.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Graph/src/main/java/com/graph/DepthFirstSearch.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Graph/src/main/java/com/graph/BreadthFirstSearch.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Trees/src/main/java/com/datastructure/binarytree/BinaryTree.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataStructure$BinaryTreeTest.ic" NAME="BinaryTreeTest Coverage Results" MODIFIED="1654103344306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.datastructure.binarytree.*</FILTER>
+    </SUITE>
   </component>
 </project>
